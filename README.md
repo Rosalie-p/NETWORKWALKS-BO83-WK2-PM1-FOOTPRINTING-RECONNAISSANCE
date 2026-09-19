@@ -1,14 +1,14 @@
 # NETWORKWALKS-BO83-WK2-PM1-FOOTPRINTING-RECONNAISSANCE
- ##Footprinting & Reconnaissance — README
+ ## Footprinting & Reconnaissance — README
 
 This guide documents the WK2-PM1 Footprinting & Reconnaissance task: gathering public information about a live website (networkwalks.com) using six built-in Kali Linux command-line tools, and recording each finding as evidence.
 
-##Task Requirements
+## Task Requirements
 Kali Linux (running in an Oracle VirtualBox VM)
 Six reconnaissance tools, all pre-installed on Kali: whois, whatweb, nslookup, curl, wafw00f, dnsrecon
 Target: networkwalks.com (authorized training domain)
 A screenshot and saved text output for each tool run
-##Tasks Performed
+## Tasks Performed
 1. WHOIS domain lookup
 whois networkwalks.com | tee whois_output.txt
 
